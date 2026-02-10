@@ -51,12 +51,10 @@
             <section class="kmo-pane">
                 <div class="kmo-section">
                     <div class="kmo-card">
-                        <p>Нахаринское КМО</p>
+                        <h2>Нахаринское КМО</h2>
                         <hr class="line-top">
-                        <p class="kmo-subtitle">Нахаринская СОШ</p>
-                        <p class="kmo-subtitle">Телигинская СОШ</p>
-                        <p class="kmo-subtitle">Чемоикинская СОШ</p>
-                        <p class="kmo-subtitle">Быраминская СОШ</p>
+                        <p class="kmo-subtitle">МБОУ «Нахаринская СОШ им. И.И. Платонова»</p>
+                        <p class="kmo-subtitle"><strong>Дата проведения: 12 февраля 2026 года</strong></p>
                     </div>
                 </div>
             </section>
@@ -114,16 +112,16 @@
                             <div class="program-event-text">
                                 <p><strong>Открытые занятия и мастер-классы ДОУ</strong></p>
                                 <p><strong>«Мастерская преемственности»</strong></p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">1. Чемоикинская СОШ</p>
                                 <p>Тема: Проект <strong>«Ебугэ ыллыга»</strong></p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">2. Телигинская СОШ</p>
                                 <p>Тема: <strong>Мастерская «Преемственность: ДОУ, НОО»</strong></p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">3. Нахаринская СОШ</p>
                                 <p>Тема: Программа <strong>«Удьуор утума»</strong></p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">Модераторы: Турантаева Р.В., Жиркова С.А.</p>
                             </div>
                             <p class="program-event-text">Площадка 1, Каб. 9</p>
@@ -135,16 +133,16 @@
                             <div class="program-event-text">
                                 <p><strong>Открытые уроки и мастер-классы ОО</strong></p>
                                 <p><strong>Педагогические практики: «От мастер-класса до проекта»</strong></p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">1. Быраминская ООШ</p>
                                 <p>Тема: Школьный научный клуб <strong>«Дабаан»</strong></p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">2. Телигинская СОШ</p>
                                 <p>Тема: <strong>Мастер-класс «Организация исследовательской деятельности обучающихся»</strong></p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">3. Нахаринская СОШ</p>
                                 <p>Тема: <strong>«Искусственный интеллект»</strong></p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">Модераторы: Гаврильева М.В., Аргунова К.Н.</p>
                             </div>
                             <p class="program-event-text">Площадка 2, Каб. 12</p>
@@ -162,13 +160,13 @@
                             <p class="program-event-text time">14:00-15:00</p>
                             <div class="program-event-text">
                                 <p><strong>Панельные дискуссии</strong></p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">«Диалог эпох»</p>
                                 <p style="color: #666; font-size: 0.9rem;">Модератор: Ларионова Н.С.</p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">«От детского сада до ВУЗа: прокладываем единый маршрут»</p>
                                 <p style="color: #666; font-size: 0.9rem;">Модератор: Старостин П.В.</p>
-
+                                
                                 <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">«Секреты мастерства»:</p>
                                 <p style="color: #666; font-size: 0.9rem; margin-left: 10px;">- МО учителей гуманитарного цикла</p>
                                 <p style="color: #666; font-size: 0.9rem; margin-left: 10px;">- МО учителей естественного цикла</p>
