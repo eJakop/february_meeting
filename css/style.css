@@ -282,9 +282,10 @@ body {
         padding-left: 0; /* ← ЭТО ВАЖНО */
         padding-right: 0; /* ← ЭТО ВАЖНО */
     }
-        .program-event-pane-columns-in-kmo-4 > * {
-            padding: 5px;
-        }
+
+    .program-event-pane-columns-in-kmo-4 > * {
+        padding: 5px;
+    }
     .program-event-pane-columns-in-kmo > * {
         padding: 5px;
     }
@@ -736,6 +737,18 @@ body {
 }
 
 .program-event-pane-columns > *:not(:last-child) {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.program-event-pane-columns-in-kmo > *:not(:last-child) {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.program-event-pane-columnsin-kmo-4 > *:not(:last-child) {
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
     margin-bottom: 10px;
