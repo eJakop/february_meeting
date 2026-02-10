@@ -265,44 +265,20 @@ body {
     .program-event-pane-columns {
         grid-template-columns: 1fr;
         gap: 5px;
-        padding-left: 0; /* ← ЭТО ВАЖНО */
+        padding-left: 0;
         padding-right: 0;
     }
 
-    .program-event-pane-columns-in-kmo {
-        grid-template-columns: 1fr;
-        gap: 5px;
-        padding-left: 0; /* ← ЭТО ВАЖНО */
-        padding-right: 0; /* ← ЭТО ВАЖНО */
-    }
-
-    .program-event-pane-columns-in-kmo-4 {
-        grid-template-columns: 1fr;
-        gap: 5px;
-        padding-left: 0; /* ← ЭТО ВАЖНО */
-        padding-right: 0; /* ← ЭТО ВАЖНО */
-    }
-
-    .program-event-pane-columns-in-kmo-4 > * {
-        padding: 5px;
-    }
-    .program-event-pane-columns-in-kmo > * {
-        padding: 5px;
-    }
-
-    .program-event-pane-columns > * {
-        padding: 5px;
-    }
-
-
 
     .program-event-text.time {
-        font-size: 0.8rem;
-        font-weight: bold;
-        background: none;
-        padding: 0;
-        text-align: left;
+        background: #f0f0f0;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        display: inline-block;
+        font-size: 0.9rem;
     }
+
     .program-event-text {
         font-size: 0.9rem;
         line-height: 1.4;
@@ -379,6 +355,7 @@ body {
         margin-left: 0;
         margin-right: 0;
         padding: 15px 10px;
+        border-width: 1px;
     }
 
     .program-event-date-text {
@@ -416,21 +393,7 @@ body {
 /* Дополнительные улучшения для очень маленьких экранов */
 @media (max-width: 480px) {
     .program-event-pane-columns {
-        grid-template-columns: 1fr; /* ← Изменяем на одну колонку */
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .program-event-pane-columns-in-kmo {
-        grid-template-columns: 1fr; /* ← Изменяем на одну колонку */
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .program-event-pane-columns-in-kmo-4 {
-        grid-template-columns: 1fr; /* ← Изменяем на одну колонку */
-        padding-left: 0;
-        padding-right: 0;
+        grid-template-columns: 1fr 5fr 2fr;
     }
 
     .program-event-text.time {
@@ -700,7 +663,11 @@ body {
 }
 
 
-
+.program-event-pane-columns {
+    display: grid;
+    grid-template-columns: 1fr 5fr; /* первая колонка в 2 раза уже второй */
+    gap: 30px;
+}
 
 /*.program-event-pane-columns > p {
     display: flex;
@@ -714,12 +681,6 @@ body {
 
 .kmo-card .btn {
     margin: 5px 0;
-}
-
-.program-event-pane-columns {
-    display: grid;
-    grid-template-columns: 1fr 5fr; /* первая колонка в 2 раза уже второй */
-    gap: 30px;
 }
 
 .program-event-pane-columns-in-kmo {
@@ -737,18 +698,6 @@ body {
 }
 
 .program-event-pane-columns > *:not(:last-child) {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-
-.program-event-pane-columns-in-kmo > *:not(:last-child) {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-
-.program-event-pane-columnsin-kmo-4 > *:not(:last-child) {
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
     margin-bottom: 10px;
