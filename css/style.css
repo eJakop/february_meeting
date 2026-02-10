@@ -37,12 +37,17 @@ body {
     color: white;
     padding: 1.5rem;
     border-radius: 0 0 var(--border-radius) var(--border-radius);
-    box-shadow: var(--shadow);
-    grid-template-columns: 1fr 4fr 1fr; /* первая колонка в 2 раза уже второй */
-    display: grid;
     margin-bottom: 2rem;
     align-items: center;
 }
+
+    .app-header.logo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: transparent;
+        justify-items: center; /* Выравнивание содержимого по центру колонок */
+        align-items: center; /* Вертикальное выравнивание */
+    }
 
 .header-content h1 {
   font-family: 'Roboto Slab', serif;
@@ -51,10 +56,14 @@ body {
   text-align:center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+.header-content p {
+    text-align: center;
+}
+
 
 .header-logo img {
   height: auto;
-  max-width: 50%;
+  max-width: 130px;
   margin-left: 1rem;
 }
 
@@ -404,7 +413,7 @@ body {
 
     .program-event-pane-columns-in-kmo {
         grid-template-columns: 1fr;
-        gap: 5px;
+        gap: 3px;
         padding: 15px;
         background-color: #f9f9f9;
         border-radius: 8px;
@@ -715,14 +724,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 5fr 2fr; /* первая колонка в 2 раза уже второй */
     gap: 30px;
-    padding-left: 40px;
+
 }
 
 .program-event-pane-columns-in-kmo-4 {
     display: grid;
     grid-template-columns: 1fr 2.5fr 2.5fr 2fr; /* первая колонка в 2 раза уже второй */
     gap: 30px;
-    padding-left: 40px;
+
 }
 
 .program-event-pane-columns > *:not(:last-child) {
@@ -737,10 +746,12 @@ body {
     font-size: 1rem;
     font-weight: normal;
     margin-bottom: 0.5rem;
+
 }
 
 .program-event-text.time {
     font-weight: bold;
+        text-align:center;
 }
 .program-event-text.title {
     font-size: 1.2rem;
