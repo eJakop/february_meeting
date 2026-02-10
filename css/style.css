@@ -408,6 +408,17 @@ body {
         grid-template-columns: 1fr 5fr 2fr;
     }
 
+    .program-event-pane-columns-in-kmo {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #eee;
+    }
+            
+
     .program-event-text.time {
         
         font-size: 0.85rem;
