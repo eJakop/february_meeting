@@ -400,13 +400,6 @@ body {
     .main-content {
         padding: 1rem 0;
     }
-}
-
-/* Дополнительные улучшения для очень маленьких экранов */
-@media (max-width: 480px) {
-    .program-event-pane-columns {
-        grid-template-columns: 1fr 5fr 2fr;
-    }
 
     .program-event-pane-columns-in-kmo {
         grid-template-columns: 1fr;
@@ -417,7 +410,18 @@ body {
         margin-bottom: 10px;
         border: 1px solid #eee;
     }
-            
+           
+}
+
+/* Дополнительные улучшения для очень маленьких экранов */
+@media (max-width: 480px) {
+    .program-event-pane-columns {
+        grid-template-columns: 1fr 5fr 2fr;
+    }
+    .program-event-pane-columns-in-kmo {
+        padding: 10px;
+    }
+ 
 
     .program-event-text.time {
         
