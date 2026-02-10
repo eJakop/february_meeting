@@ -38,7 +38,7 @@ body {
     padding: 1.5rem;
     border-radius: 0 0 var(--border-radius) var(--border-radius);
     box-shadow: var(--shadow);
-    grid-template-columns: 1fr 4fr; /* первая колонка в 2 раза уже второй */
+    grid-template-columns: 1fr 4fr 1fr; /* первая колонка в 2 раза уже второй */
     display: grid;
     margin-bottom: 2rem;
     align-items: center;
@@ -48,6 +48,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
+  text-align:center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
